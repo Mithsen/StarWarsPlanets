@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A363E38CDBD90094ABCE21B /* Pods_StarWarsPlanets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B1D27CEF617971BA34E4B9 /* Pods_StarWarsPlanets.framework */; };
 		A86F37B02841D52200777D2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F37AF2841D52200777D2F /* AppDelegate.swift */; };
 		A86F37B22841D52200777D2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F37B12841D52200777D2F /* SceneDelegate.swift */; };
 		A86F37B42841D52200777D2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F37B32841D52200777D2F /* ViewController.swift */; };
 		A86F37B72841D52200777D2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A86F37B52841D52200777D2F /* Main.storyboard */; };
 		A86F37B92841D52300777D2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A86F37B82841D52300777D2F /* Assets.xcassets */; };
 		A86F37BC2841D52300777D2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A86F37BA2841D52300777D2F /* LaunchScreen.storyboard */; };
+		A86F37D62841D5C400777D2F /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F37C42841D5C400777D2F /* DataModel.swift */; };
+		A86F37D72841D5C400777D2F /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F37C62841D5C400777D2F /* APIRequest.swift */; };
+		A86F37D82841D5C400777D2F /* PlanetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F37C82841D5C400777D2F /* PlanetListViewController.swift */; };
+		A86F37D92841D5C400777D2F /* PlanetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F37C92841D5C400777D2F /* PlanetTableViewCell.swift */; };
+		A86F37DA2841D5C400777D2F /* PlanetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A86F37CA2841D5C400777D2F /* PlanetTableViewCell.xib */; };
+		A86F37DB2841D5C400777D2F /* PlanetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F37CB2841D5C400777D2F /* PlanetDetailViewController.swift */; };
+		A86F37DC2841D5C400777D2F /* PlanetDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A86F37CC2841D5C400777D2F /* PlanetDetailViewController.xib */; };
+		A86F37DD2841D5C400777D2F /* PlanetDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F37CE2841D5C400777D2F /* PlanetDetailRouter.swift */; };
+		A86F37DE2841D5C400777D2F /* PlanetListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F37CF2841D5C400777D2F /* PlanetListRouter.swift */; };
+		A86F37DF2841D5C400777D2F /* PlanetListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F37D12841D5C400777D2F /* PlanetListViewModel.swift */; };
+		A86F37E02841D5C400777D2F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F37D32841D5C400777D2F /* Constants.swift */; };
+		A86F37E12841D5C400777D2F /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F37D52841D5C400777D2F /* Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41B1D27CEF617971BA34E4B9 /* Pods_StarWarsPlanets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWarsPlanets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86F37AC2841D52200777D2F /* StarWarsPlanets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsPlanets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86F37AF2841D52200777D2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A86F37B12841D52200777D2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,20 @@
 		A86F37B82841D52300777D2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A86F37BB2841D52300777D2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A86F37BD2841D52300777D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A86F37C42841D5C400777D2F /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		A86F37C62841D5C400777D2F /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		A86F37C82841D5C400777D2F /* PlanetListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetListViewController.swift; sourceTree = "<group>"; };
+		A86F37C92841D5C400777D2F /* PlanetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetTableViewCell.swift; sourceTree = "<group>"; };
+		A86F37CA2841D5C400777D2F /* PlanetTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlanetTableViewCell.xib; sourceTree = "<group>"; };
+		A86F37CB2841D5C400777D2F /* PlanetDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetDetailViewController.swift; sourceTree = "<group>"; };
+		A86F37CC2841D5C400777D2F /* PlanetDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlanetDetailViewController.xib; sourceTree = "<group>"; };
+		A86F37CE2841D5C400777D2F /* PlanetDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetDetailRouter.swift; sourceTree = "<group>"; };
+		A86F37CF2841D5C400777D2F /* PlanetListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetListRouter.swift; sourceTree = "<group>"; };
+		A86F37D12841D5C400777D2F /* PlanetListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetListViewModel.swift; sourceTree = "<group>"; };
+		A86F37D32841D5C400777D2F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A86F37D52841D5C400777D2F /* Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		F66BC04592AFF57AFEDBDB05 /* Pods-StarWarsPlanets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsPlanets.release.xcconfig"; path = "Target Support Files/Pods-StarWarsPlanets/Pods-StarWarsPlanets.release.xcconfig"; sourceTree = "<group>"; };
+		FB4B7A231335F35532ED63C1 /* Pods-StarWarsPlanets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsPlanets.debug.xcconfig"; path = "Target Support Files/Pods-StarWarsPlanets/Pods-StarWarsPlanets.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A363E38CDBD90094ABCE21B /* Pods_StarWarsPlanets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B7CD2EDBD810721FCC78010 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41B1D27CEF617971BA34E4B9 /* Pods_StarWarsPlanets.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A86F37A32841D52200777D2F = {
 			isa = PBXGroup;
 			children = (
 				A86F37AE2841D52200777D2F /* StarWarsPlanets */,
 				A86F37AD2841D52200777D2F /* Products */,
+				B2F3E8E5E884B35F43514625 /* Pods */,
+				4B7CD2EDBD810721FCC78010 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +95,12 @@
 		A86F37AE2841D52200777D2F /* StarWarsPlanets */ = {
 			isa = PBXGroup;
 			children = (
+				A86F37C32841D5C400777D2F /* Model */,
+				A86F37C52841D5C400777D2F /* Network Layer */,
+				A86F37D22841D5C400777D2F /* Resources */,
+				A86F37CD2841D5C400777D2F /* Router */,
+				A86F37C72841D5C400777D2F /* View */,
+				A86F37D02841D5C400777D2F /* ViewModel */,
 				A86F37AF2841D52200777D2F /* AppDelegate.swift */,
 				A86F37B12841D52200777D2F /* SceneDelegate.swift */,
 				A86F37B32841D52200777D2F /* ViewController.swift */,
@@ -67,6 +112,78 @@
 			path = StarWarsPlanets;
 			sourceTree = "<group>";
 		};
+		A86F37C32841D5C400777D2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A86F37C42841D5C400777D2F /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A86F37C52841D5C400777D2F /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+				A86F37C62841D5C400777D2F /* APIRequest.swift */,
+			);
+			path = "Network Layer";
+			sourceTree = "<group>";
+		};
+		A86F37C72841D5C400777D2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A86F37C82841D5C400777D2F /* PlanetListViewController.swift */,
+				A86F37C92841D5C400777D2F /* PlanetTableViewCell.swift */,
+				A86F37CA2841D5C400777D2F /* PlanetTableViewCell.xib */,
+				A86F37CB2841D5C400777D2F /* PlanetDetailViewController.swift */,
+				A86F37CC2841D5C400777D2F /* PlanetDetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A86F37CD2841D5C400777D2F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A86F37CE2841D5C400777D2F /* PlanetDetailRouter.swift */,
+				A86F37CF2841D5C400777D2F /* PlanetListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A86F37D02841D5C400777D2F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A86F37D12841D5C400777D2F /* PlanetListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A86F37D22841D5C400777D2F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A86F37D32841D5C400777D2F /* Constants.swift */,
+				A86F37D42841D5C400777D2F /* Extensions */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A86F37D42841D5C400777D2F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A86F37D52841D5C400777D2F /* Extention.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B2F3E8E5E884B35F43514625 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB4B7A231335F35532ED63C1 /* Pods-StarWarsPlanets.debug.xcconfig */,
+				F66BC04592AFF57AFEDBDB05 /* Pods-StarWarsPlanets.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A86F37C02841D52300777D2F /* Build configuration list for PBXNativeTarget "StarWarsPlanets" */;
 			buildPhases = (
+				5E447755DA5837B32025965B /* [CP] Check Pods Manifest.lock */,
 				A86F37A82841D52200777D2F /* Sources */,
 				A86F37A92841D52200777D2F /* Frameworks */,
 				A86F37AA2841D52200777D2F /* Resources */,
+				480AB6E4C0B855D6F67663B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +246,74 @@
 			files = (
 				A86F37BC2841D52300777D2F /* LaunchScreen.storyboard in Resources */,
 				A86F37B92841D52300777D2F /* Assets.xcassets in Resources */,
+				A86F37DC2841D5C400777D2F /* PlanetDetailViewController.xib in Resources */,
 				A86F37B72841D52200777D2F /* Main.storyboard in Resources */,
+				A86F37DA2841D5C400777D2F /* PlanetTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		480AB6E4C0B855D6F67663B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarWarsPlanets/Pods-StarWarsPlanets-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarWarsPlanets/Pods-StarWarsPlanets-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarWarsPlanets/Pods-StarWarsPlanets-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E447755DA5837B32025965B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarWarsPlanets-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A86F37A82841D52200777D2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A86F37DF2841D5C400777D2F /* PlanetListViewModel.swift in Sources */,
+				A86F37D92841D5C400777D2F /* PlanetTableViewCell.swift in Sources */,
 				A86F37B42841D52200777D2F /* ViewController.swift in Sources */,
+				A86F37E12841D5C400777D2F /* Extention.swift in Sources */,
+				A86F37DD2841D5C400777D2F /* PlanetDetailRouter.swift in Sources */,
+				A86F37DB2841D5C400777D2F /* PlanetDetailViewController.swift in Sources */,
+				A86F37D62841D5C400777D2F /* DataModel.swift in Sources */,
 				A86F37B02841D52200777D2F /* AppDelegate.swift in Sources */,
+				A86F37D72841D5C400777D2F /* APIRequest.swift in Sources */,
+				A86F37D82841D5C400777D2F /* PlanetListViewController.swift in Sources */,
+				A86F37DE2841D5C400777D2F /* PlanetListRouter.swift in Sources */,
 				A86F37B22841D52200777D2F /* SceneDelegate.swift in Sources */,
+				A86F37E02841D5C400777D2F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +455,7 @@
 		};
 		A86F37C12841D52300777D2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB4B7A231335F35532ED63C1 /* Pods-StarWarsPlanets.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +484,7 @@
 		};
 		A86F37C22841D52300777D2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F66BC04592AFF57AFEDBDB05 /* Pods-StarWarsPlanets.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
